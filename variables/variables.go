@@ -10,7 +10,7 @@ const (
 	NUMBER_VMS         = 3
 	VM_VCPUS           = 2
 	VM_RAM_GB          = 4
-	IMAGE_SIZE         = "8G"
+	IMAGE_SIZE         = int64(8 * 1024 * 1024 * 1024) // 8G is a string but function requires a int64 in bytes
 	FIRECRACKER_BRIDGE = "fcbr0"
 	VMS_NETWORK_PREFIX = "172.26.0"
 	UBUNTU_VERSION     = "bionic"
