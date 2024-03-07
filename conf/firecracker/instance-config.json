@@ -1,0 +1,5 @@
+{
+  "vcpu_count": __INSTANCE_VCPUS__,
+  "mem_size_mib": __INSTANCE_RAM_MB__,
+  "ht_enabled": false
+}

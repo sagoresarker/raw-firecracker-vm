@@ -1,0 +1,15 @@
+version: 2
+ethernets:
+  eth0:
+    match:
+       macaddress: "AA:FF:00:00:00:01"
+    addresses:
+      - 169.254.0.1/16
+  eth1:
+    match:
+      macaddress: "EE:00:00:00:00:__MAC_OCTET__"
+    addresses:
+      - __INSTANCE_IP__/24
+    gateway4: __GATEWAY__
+    nameservers:
+      addresses: [ 8.8.4.4, 8.8.8.8 ]

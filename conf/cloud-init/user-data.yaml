@@ -1,0 +1,9 @@
+#cloud-config
+users:
+  - name: fc
+    gecos: Firecracker user
+    shell: /bin/bash
+    groups: sudo
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    ssh_authorized_keys:
+      - __SSH_PUB_KEY__

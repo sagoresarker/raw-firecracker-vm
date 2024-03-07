@@ -1,0 +1,6 @@
+{
+  "iface_id": "eth0",
+  "guest_mac": "AA:FF:00:00:00:01",
+  "host_dev_name": "__TAP_METADATA__",
+  "allow_mmds_requests": true
+}

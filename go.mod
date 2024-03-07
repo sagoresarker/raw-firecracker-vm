@@ -1,6 +1,6 @@
 module github.com/sagoresarker/raw-firecracker-vm
 
-go 1.22
+go 1.22.1
 
 require github.com/vishvananda/netlink v1.1.0
 

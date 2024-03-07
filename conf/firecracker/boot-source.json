@@ -1,0 +1,5 @@
+{
+  "kernel_image_path": "__KERNEL_IMAGE__",
+  "boot_args": "reboot=k panic=1 pci=off ds=nocloud-net;s=http://169.254.169.254/latest/ network-config=__NETWORK_CONFIG__",
+  "initrd_path": "__INITRD__"
+}
